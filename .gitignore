@@ -2,6 +2,7 @@ bird_data.csv
 *.mp3
 *.DS_Store
 bird_data_DO_NOT_USE.csv
+/data
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
