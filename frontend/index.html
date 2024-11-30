@@ -7,20 +7,25 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Flashcard Container -->
     <div class="flashcard" id="flashcard">
+        <!-- Front of the Flashcard -->
         <div class="front" id="front">
-            <button id="playSound" onclick="playSound()">🔊 Play Sound</button>
+            <button id="playSound" onclick="handlePlaySound(event)">🔊 Play Sound</button>
         </div>
+        <!-- Back of the Flashcard -->
         <div class="back" id="back">
-            <img id="image" src="image.jpg" alt="Picture">
+            <img id="image" src="image1.jpg" alt="Picture">
             <p id="name">Item Name</p>
         </div>
     </div>
-    <button onclick="flipCard()">Flip</button>
+
+    <!-- Navigation Buttons -->
     <button onclick="prevCard()">Previous</button>
     <button onclick="nextCard()">Next</button>
 
-    <audio id="sound" src="sound.mp3"></audio>
+    <!-- Audio Element -->
+    <audio id="sound" src="sound1.mp3"></audio>
     <script src="script.js"></script>
 </body>
 </html>
