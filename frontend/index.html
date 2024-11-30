@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="flashcard" id="flashcard">
+        <div class="front" id="front">
+            <button id="playSound" onclick="playSound()">🔊 Play Sound</button>
+        </div>
+        <div class="back" id="back">
+            <img id="image" src="image.jpg" alt="Picture">
+            <p id="name">Item Name</p>
+        </div>
+    </div>
+    <button onclick="flipCard()">Flip</button>
+    <button onclick="prevCard()">Previous</button>
+    <button onclick="nextCard()">Next</button>
+
+    <audio id="sound" src="sound.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
